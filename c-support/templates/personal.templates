@@ -1,0 +1,4 @@
+SetMacro( 'AUTHOR',       'Christian Bodelsson' )
+SetMacro( 'AUTHORREF',    'cb' )
+SetMacro( 'EMAIL',        'krille0x7c2@gmail.com' )
+SetMacro( 'COPYRIGHT',    'Copyright (c) |YEAR|,  |AUTHOR|' ))))))
