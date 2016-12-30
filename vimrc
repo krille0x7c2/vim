@@ -190,6 +190,11 @@ xnoremap  "  s""<Esc>P<Right>
 xnoremap  `  s``<Esc>P<Right>
 "
 "-------------------------------------------------------------------------------
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+"-------------------------------------------------------------------------------
+cmap w!! w !sudo tee > /dev/null %
+"
+"-------------------------------------------------------------------------------
 " Change the working directory to the directory containing the current file
 "-------------------------------------------------------------------------------
 if has("autocmd")
